@@ -1,0 +1,22 @@
+# We don't need to share project dirs, causes more problems than it's worth
+.idea/
+.vscode/
+.DS_Store
+
+# These dirs should never go to upstream as they are not needed but are
+# built
+/node_modules/
+/typings/
+/coverage/
+**/_dist/
+**/*.swp
+build/*
+/dev/unit-testing/coverage
+/dev/tslint-report
+/WWW/shared/soti-node-modules/**/*.js
+/WWW/shared/soti-node-modules/**/*.js.map
+/WWW/portals/**/*.js
+/WWW/portals/**/*.js.map
+npm-debug.log
+npm-debug.log.*
+/dev/code-generation/**/*.xml
