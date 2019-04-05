@@ -1,6 +1,9 @@
 {
   "extends": "../tslint.json",
   "rules": {
+    "quotemark":{
+      "options":"double"
+    },
     "directive-selector": [
       true,
       "attribute",
